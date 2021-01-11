@@ -1,0 +1,14 @@
+You could paste any words into the send.txt ffile. 
+Send.txt might need to be updated or changed in sender.c file
+to any .txt file you wish, and then the words inside of the .txt file 
+will be transfered to recieve.txt. The recieve.txt file replaces the words
+everytime you run.
+
+To compile
+1. gcc sender.c -o sender
+2. gcc receiver.c -o receiver
+
+To run
+run from receiver, then run sender. Reciever will response you. 
+./receiver 4547
+./sender localhost 4547
